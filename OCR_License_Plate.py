@@ -4,10 +4,9 @@ import requests
 import base64
 
 # Konfigurasi
-DATASET_PATH = r'C:\Users\ABDUL\OneDrive\Documents\Politeknik Negeri Batam\Teknik Robotika\Semester 6\Computer Vision (RE606)\License Plate v1.4\test'  # Ganti dengan path ke folder 'test' Anda
-GROUND_TRUTH_CSV = r'C:\Users\ABDUL\OneDrive\Documents\Politeknik Negeri Batam\Teknik Robotika\Semester 6\Computer Vision (RE606)\License Plate v1.4\ground_truth.csv'  # Ganti dengan path ke file ground truth Anda
-OUTPUT_CSV = 'ocr_results.csv'
-MODEL_URL = 'http://10.170.5.208:1234/v1/chat/completions'  # Ganti dengan endpoint model llava-phi-3-mini
+DATASET_PATH = r'C:\Users\ABDUL\OneDrive\Documents\Politeknik Negeri Batam\Teknik Robotika\Semester 6\Computer Vision (RE606)\License Plate v1.4\test'
+GROUND_TRUTH_CSV = r'C:\Users\ABDUL\OneDrive\Documents\Politeknik Negeri Batam\Teknik Robotika\Semester 6\Computer Vision (RE606)\License Plate v1.4\ground_truth.csv'
+MODEL_URL = 'http://10.170.5.208:1234/v1/chat/completions'
 
 # Fungsi untuk mengirim gambar ke model dan mendapatkan prediksi
 def get_license_plate_prediction(image_path):
