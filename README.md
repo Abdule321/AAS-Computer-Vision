@@ -1,5 +1,6 @@
 # AAS - Computer Vision
 ## 4222201039 Abdul Fathah Fathullah
+## Robotika B Pagi
 # OCR Plat Nomor Kendaraan dengan Visual Language Model (VLM)
 
 Proyek ini dibuat untuk menyelesaikan tugas akhir mata kuliah **Computer Vision (RE604)** pada semester genap 2024/2025, Program Studi Teknik Robotika.
