@@ -1,4 +1,4 @@
-# AAS - Computer - Vision
+# AAS - Computer Vision
 ## 4222201039 Abdul Fathah Fathullah
 # OCR Plat Nomor Kendaraan dengan Visual Language Model (VLM)
 
